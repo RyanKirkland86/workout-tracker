@@ -20,23 +20,18 @@ const workoutSchema = new Schema({
             },
             duration: {
                 type: Number,
-                min: [0, "Must be greater than 0"]
             },
             distance: {
                 type: Number,
-                min: [0, "Must be greater than 0"]
             },
             weight: {
                 type: Number,
-                min: [0, "Must be greater than 0"]
             },
             reps: {
                 type: Number,
-                min: [0, "Must be greater than 0"]
             },
             sets: {
                 type: Number,
-                min: [0, "Must be greater than 0"]
             }
         }
     ]
