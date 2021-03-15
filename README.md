@@ -2,8 +2,9 @@
 
 ## Project:
 
+This is a NoSQL project using MongoDB and Mongoose that allows for a user to view, create, and track daily workouts. The user may log multiple exercises in a workout on a given day and are able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, they are able to track the distance traveled.
 
-[Deployed Link]()
+[Deployed Link](https://ryansworkouttracker.herokuapp.com/)
 
 ![Image]()
 
@@ -15,10 +16,6 @@
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [mongoosejs](https://mongoosejs.com/)
-
-## Installation:
-
-
 
 ## Process:
 
