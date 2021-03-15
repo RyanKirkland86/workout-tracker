@@ -6,7 +6,7 @@ This is a NoSQL project using MongoDB and Mongoose that allows for a user to vie
 
 [Deployed Link](https://ryansworkouttracker.herokuapp.com/)
 
-![Image]()
+![Image](https://github.com/RyanKirkland86/workout-tracker/blob/main/public/img/FitnessTracker-DEMO.gif)
 
 ## Technologies Used:
 
