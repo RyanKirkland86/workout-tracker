@@ -19,16 +19,40 @@ This is a NoSQL project using MongoDB and Mongoose that allows for a user to vie
 
 ## Process:
 
-
+Thos follwing is an example of code form the server side api-routes using a router.
 
 ```javascript
+router.get("/api/workouts", (req, res) => {
+    Workout.find().then((dbWorkout) => {
+        res.json(dbWorkout);
+    }).catch((err) => {
+        res.json(err);
+    });
+});
 
+router.post("/api/workouts", (req, res) => {
+    Workout.create(req.body)
+    .then(dbWorkout => {
+        res.json(dbWorkout)
+    }).catch(err => {
+        res.json(err);
+    });
+});
 ```
-
-
+Similarly, here is an example of the server side HTML routes using a router.
 
 ```javascript
+router.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "../public/index.html"))
+});
 
+router.get("/exercise", (req, res) => {
+    res.sendFile(path.join(__dirname, "../public/exercise.html"))
+});
+
+router.get("/stats", (req, res) => {
+    res.sendFile(path.join(__dirname, "../public/stats.html"))
+});
 ```
 
 ## Authors:
