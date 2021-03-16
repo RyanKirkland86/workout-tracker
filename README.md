@@ -14,6 +14,8 @@ This is a NoSQL project using MongoDB and Mongoose that allows for a user to vie
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://www.javascript.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Node](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [mongoosejs](https://mongoosejs.com/)
 
